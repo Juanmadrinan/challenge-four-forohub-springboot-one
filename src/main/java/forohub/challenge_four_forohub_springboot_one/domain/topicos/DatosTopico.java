@@ -1,4 +1,4 @@
-package forohub.challenge_four_forohub_springboot_one.topicos;
+package forohub.challenge_four_forohub_springboot_one.domain.topicos;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

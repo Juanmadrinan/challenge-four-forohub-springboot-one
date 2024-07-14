@@ -1,4 +1,4 @@
-package forohub.challenge_four_forohub_springboot_one.topicos;
+package forohub.challenge_four_forohub_springboot_one.domain.topicos;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;

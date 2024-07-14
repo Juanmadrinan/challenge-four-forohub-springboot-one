@@ -1,10 +1,10 @@
 package forohub.challenge_four_forohub_springboot_one.controller;
 
 import forohub.challenge_four_forohub_springboot_one.repository.RepositoryTopico;
-import forohub.challenge_four_forohub_springboot_one.topicos.ActualizarDatosTopicos;
-import forohub.challenge_four_forohub_springboot_one.topicos.DatosTopico;
-import forohub.challenge_four_forohub_springboot_one.topicos.ObtenerListadoTopicos;
-import forohub.challenge_four_forohub_springboot_one.topicos.Topico;
+import forohub.challenge_four_forohub_springboot_one.domain.topicos.ActualizarDatosTopicos;
+import forohub.challenge_four_forohub_springboot_one.domain.topicos.DatosTopico;
+import forohub.challenge_four_forohub_springboot_one.domain.topicos.ObtenerListadoTopicos;
+import forohub.challenge_four_forohub_springboot_one.domain.topicos.Topico;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -29,7 +29,6 @@ public class TopicoController {
     public ResponseEntity registrarTopico(@RequestBody @Valid DatosTopico datosTopico, UriComponentsBuilder uriComponentBuilder){
         var listado = repositoryTopico.findAll().stream().map(ObtenerListadoTopicos::new);
         var listadoMensaje = repositoryTopico.findAll().stream().map(ObtenerListadoTopicos::new);
-
 
         Topico topico = null;
         URI url = null;
