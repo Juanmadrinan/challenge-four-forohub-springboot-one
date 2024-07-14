@@ -69,8 +69,40 @@
 
 <h4>Base de datos</h4>
 
+<h5>Usuarios</h5>
+
 ![image](https://github.com/user-attachments/assets/3d3b889f-13cd-4206-97ec-239f539a076a)
 
+<h4>Entrega de Token</h4>
 
+![image](https://github.com/user-attachments/assets/f863a441-433e-4a20-9def-5194af971378)
 
+<h4>Prueba sin Token (Petición general GET)</h4
+                                             
+![image](https://github.com/user-attachments/assets/c8523fc5-051b-42e4-a87c-47260798fe04)
+
+<h4>Prueba con Token -> GET (Se demuestra paginación)</h4>
+
+![image](https://github.com/user-attachments/assets/85b760b9-af09-46a6-82ce-6adb0a612c54)
+
+<h4>Prueba con Token -> POST</h4>
+
+![image](https://github.com/user-attachments/assets/3e17244a-3e30-4430-aaef-d8ab43245518)
+
+<h4>Evidencia de la Peticion GET por ID y evidencia en la Base de Datos</h4>
+
+![image](https://github.com/user-attachments/assets/4ceb7b3d-4970-4eb7-a1ee-049a52827989)
+![image](https://github.com/user-attachments/assets/8d5fd532-e643-4aab-a0ed-b90fde460572)
+
+<h4>Prueba con Token -> PUT</h4>
+
+![image](https://github.com/user-attachments/assets/cd60590e-3801-405a-b427-81fffe3a04db)
+![image](https://github.com/user-attachments/assets/ebfa4e73-f54f-4ce1-8e61-a5d85a928087)
+
+<h4>Prueba con Token -> DELETE y evidencia en la base de datos</h4>
+
+![image](https://github.com/user-attachments/assets/8a07aefc-5f86-4e9c-862b-807165d520a6)
+![image](https://github.com/user-attachments/assets/c5d022c2-11e3-4301-ad1c-280a6510b0bf)
+
+<h2>Gracias por llegar hasta aqui!!😀</h2>
 
