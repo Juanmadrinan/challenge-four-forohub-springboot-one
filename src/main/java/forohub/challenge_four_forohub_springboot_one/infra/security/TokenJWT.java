@@ -50,7 +50,7 @@ public class TokenJWT {
             decodedJWT.getSubject();
 
         } catch (JWTVerificationException e) {
-
+            throw new RuntimeException("Token verification failed " + e.getMessage(), e);
         }
         if (decodedJWT.getSubject() == null) {
             throw new RuntimeException("Autorizacion Invalida");
